@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jackson-core-asl-1.9.51">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../BeHere1.0.0/lib/jackson-core-asl-1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../BeHere1.0.0/lib/jackson-mapper-asl-1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../BeHere1.0.0/lib/xmlbeans-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
