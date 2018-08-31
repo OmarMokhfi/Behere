@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    app:layout_scrollFlags="enterAlways"
+    tools:context="com.example.teamloosers.behereandroid.Activities.AppelListActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/etudiantsAppelListRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:padding="5dp"
+                android:scrollbars="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tw__transparent"
+        android:fitsSystemWindows="false"
+        android:theme="@style/BeHere.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/BeHere.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/valider_appel_background_color"
+            android:gravity="right|center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3"
+                android:gravity="right|center"
+                android:text="date"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/date_text_view_text_size" />
+
+            <TextView
+                android:id="@+id/heureTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="left|center"
+                android:text="heure"
+                android:textColor="@color/textSecondary"
+                android:textSize="@dimen/date_seance_button_text_size" />
+
+            <Button
+                android:id="@+id/modifierDateButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_weight="2.5"
+                android:background="@drawable/tw__transparent"
+                android:drawableStart="@drawable/calendar"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:text="@string/modifier_date_button_text"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/date_seance_button_text_size" />
+
+            <Button
+                android:id="@+id/modifierHeureButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2.5"
+                android:background="@drawable/tw__transparent"
+                android:drawableStart="@drawable/time_icon"
+                android:gravity="center"
+                android:text="Heure"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/heure_debut_button_text_size" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

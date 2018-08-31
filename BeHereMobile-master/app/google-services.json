@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "395498203489",
+    "firebase_url": "https://behere-d5727.firebaseio.com",
+    "project_id": "behere-d5727",
+    "storage_bucket": "behere-d5727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395498203489:android:a75162697cecccf0",
+        "android_client_info": {
+          "package_name": "com.example.teamloosers.behereandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395498203489-kk25a6q9b26gck0f5jrfhfosudcghjhc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teamloosers.behereandroid",
+            "certificate_hash": "819672852073cab4efa62ba3455b29230fe08145"
+          }
+        },
+        {
+          "client_id": "395498203489-ro0n2n14qejn1hbqo1147kq3upt2ss6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlRCnU3eXTau45iZq8sJEKqZQwnpSjtG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395498203489-ro0n2n14qejn1hbqo1147kq3upt2ss6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
