@@ -10,8 +10,6 @@ Behere is a **second year school project** that includes an **android applicatio
       Badreddine YACHEUR
       Abdelrahmane TAYBCHERIF
 
-## Getting Started
-
 ## BUILT WITH
   - JAVA [IntelIJ IDE]
   - ANDROID STUDIO
